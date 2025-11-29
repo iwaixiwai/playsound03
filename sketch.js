@@ -8,7 +8,7 @@ function preload() {
 
 // setup関数でキャンバスとUIを作成する
 function setup() {
-  createCanvas(240, 240); // キャンバスを作成
+  createCanvas(20, 20); // キャンバスを作成
  const osc = new p5.Oscillator('sine')
  
   // プレイボタンを作成
